@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ankit Yadav | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: #f7f7f7;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #1e293b;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2rem;
+    }
+
+    nav {
+      background: #334155;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 50px 10%;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #1e293b;
+    }
+
+    /* About Section */
+    #about p {
+      max-width: 700px;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 1.1rem;
+    }
+
+    /* Skills Section */
+    #skills table {
+      width: 70%;
+      margin: 20px auto;
+      border-collapse: collapse;
+    }
+
+    #skills th, #skills td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: center;
+    }
+
+    #skills th {
+      background: #1e293b;
+      color: #fff;
+    }
+
+    #skills tr:nth-child(even) {
+      background: #f1f5f9;
+    }
+
+    /* Projects Section */
+    #projects .project-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .project {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      width: 300px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .project a {
+      color: #1e40af;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .project a:hover {
+      text-decoration: underline;
+    }
+
+    /* Contact Section */
+    form {
+      max-width: 500px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+      width: 100%;
+    }
+
+    button {
+      background: #1e293b;
+      color: #fff;
+      border: none;
+      padding: 10px;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #334155;
+    }
+
+    /* Footer */
+    footer {
+      background: #1e293b;
+      color: #fff;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 50px;
+    }
+
+    footer a {
+      color: #60a5fa;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div style="display: flex; justify-content: center; align-items: center;">
+    <img src="https://imgs.search.brave.com/hXcg-4fk8qoYdzq-HJGsYUVfyyU4ph2z6Xc7Goldddk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4z/Lmljb25maW5kZXIu/Y29tL2RhdGEvaWNv/bnMvdXNlci1hdmF0/YXJzLTEvNTEyL3Vz/ZXJzLTE1LTEyOC5w/bmc" alt="Ankit Yadav" width="120" height="120" style="border-radius: 50%; margin-bottom: 10px;" />
+    <h1>Ankit Yadav</h1>
+    </div>
+    <p>Aspiring Web Developer | B.Tech CSE</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hello! I’m Ankit Yadav, an aspiring web developer passionate about creating
+      modern, user-friendly websites and AI-driven projects. I love building things
+      that solve real problems and continuously learning new technologies.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <table>
+      <tr>
+        <th>Skill</th>
+        <th>Level</th>
+        <th>Experience</th>
+      </tr>
+      <tr>
+        <td>HTML & CSS</td>
+        <td>Advanced</td>
+        <td>2 Years</td>
+      </tr>
+      <tr>
+        <td>JavaScript</td>
+        <td>Intermediate</td>
+        <td>1.5 Years</td>
+      </tr>
+      <tr>
+        <td>React.js</td>
+        <td>Intermediate</td>
+        <td>1 Year</td>
+      </tr>
+      <tr>
+        <td>Node.js</td>
+        <td>Intermediate</td>
+        <td>1 Year</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project">
+        <h3>Stemify</h3>
+        <p>Streaming platform with friend system and chat features.</p>
+        <a href="https://github.com/msrankit/streamify" target="_blank">View Project</a>
+        <br/>
+        <br/>
+        <a href="https://streamify-video.onrender.com/chat/68384dcedf7fb891c2e9af9a">Live Now</a>
+      </div>
+      <div class="project">
+        <h3>iphone-clone</h3>
+        <p>Create a clone popular Iphone website With 3D twist</p>
+        <a href="https://github.com/msrankit/IPhone" target="_blank">View Project</a>
+        <br/>
+        <br/>
+        <a href="https://velvety-genie-6be851.netlify.app/" target="_blank">Live Now</a>
+      </div>
+      <div class="project">
+        <h3>Golden Gym </h3>
+        <p>GYM website all necessary exercises as per requirment with search feature</p>
+        <a href="https://github.com/msrankit/WorkOut" target="_blank">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="#" method="post">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Connect with me:</p>
+    <a href="https://instagram.com/yourusername" target="_blank">Instagram</a> |
+    <a href="https://facebook.com/yourusername" target="_blank">Facebook</a> |
+    <a href="https://x.com/yourusername" target="_blank">X (Twitter)</a>
+    <p>&copy; 2025 Ankit Yadav. All rights reserved.</p>
+  </footer>
+</body>
+</html>
